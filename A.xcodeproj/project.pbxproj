@@ -59,7 +59,6 @@
 				D3F02C59A4F6539AD22E9EDB /* Pods-A.debug.xcconfig */,
 				EA890EBD4AFEE0C62381052D /* Pods-A.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -93,7 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				9A6E792B2A01ED0A0048B28C /* A */,
-				9A6E79262A01E6AE0048B28C /* Targets */,
 				9A5EDDBE29FBC0AF0025F168 /* AppDelegate.h */,
 				9A5EDDBF29FBC0AF0025F168 /* AppDelegate.m */,
 				9A5EDDC129FBC0AF0025F168 /* SceneDelegate.h */,
@@ -121,6 +119,7 @@
 		9A6E792B2A01ED0A0048B28C /* A */ = {
 			isa = PBXGroup;
 			children = (
+				9A6E79262A01E6AE0048B28C /* Targets */,
 				9A6E792C2A01ED0A0048B28C /* AViewController.m */,
 				9A6E792D2A01ED0A0048B28C /* AViewController.h */,
 			);
