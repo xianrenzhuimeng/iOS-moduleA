@@ -13,7 +13,7 @@ target 'A' do
   pod 'Masonry'
   pod 'MJRefresh'
   pod 'MJExtension'
-  pod 'YYCache'
+  pod 'YYKit'
   pod 'MBProgressHUD'
   pod 'SDWebImage'
   pod 'YTKNetwork'
