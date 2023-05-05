@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "A"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "A."
 
   # This description is used to generate tags and improve search results.
@@ -138,7 +138,16 @@ Pod::Spec.new do |s|
   # s.dependency "BLMediator"
   s.dependency "B_Category"
   s.dependency "HandyFrame"
-
+  s.dependency "AFNetworking"
+  s.dependency "Masonry"
+  s.dependency "MJRefresh"
+  s.dependency "MJExtension"
+  s.dependency "YYCache"
+  s.dependency "MBProgressHUD"
+  s.dependency "SDWebImage"
+  s.dependency "YTKNetwork"
+  s.dependency "QMUIKit"
+  s.dependency "Toast"
   
 
 end

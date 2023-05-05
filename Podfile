@@ -9,5 +9,15 @@ target 'A' do
   # use_frameworks!
   pod "B_Category", :path => "../B_Category"
   pod "HandyFrame"
+  pod 'AFNetworking'
+  pod 'Masonry'
+  pod 'MJRefresh'
+  pod 'MJExtension'
+  pod 'YYCache'
+  pod 'MBProgressHUD'
+  pod 'SDWebImage'
+  pod 'YTKNetwork'
+  pod 'QMUIKit'
+  pod 'Toast'
  
 end
