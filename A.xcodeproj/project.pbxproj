@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		1CA9D22D53DFD751CB982BA4 /* libPods-A.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4D2A7A737C6EB197238564 /* libPods-A.a */; };
+		9A337E172A04A93300D058A5 /* UCMHttpRequestBaseVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A337E0D2A04A93200D058A5 /* UCMHttpRequestBaseVM.m */; };
+		9A337E192A04A93300D058A5 /* UCMHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A337E142A04A93200D058A5 /* UCMHttpRequest.m */; };
+		9A337E1A2A04A93300D058A5 /* UCMHttpRequestResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A337E152A04A93200D058A5 /* UCMHttpRequestResponse.m */; };
+		9A337E1B2A04A93300D058A5 /* UCMHttpRequestNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A337E162A04A93200D058A5 /* UCMHttpRequestNetworkManager.m */; };
+		9A337E222A04AA9200D058A5 /* KWLoginedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A337E202A04AA9200D058A5 /* KWLoginedManager.m */; };
+		9A337E232A04AA9200D058A5 /* KWLoginedUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A337E212A04AA9200D058A5 /* KWLoginedUserModel.m */; };
 		9A5EDDC029FBC0AF0025F168 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5EDDBF29FBC0AF0025F168 /* AppDelegate.m */; };
 		9A5EDDC329FBC0AF0025F168 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5EDDC229FBC0AF0025F168 /* SceneDelegate.m */; };
 		9A5EDDC629FBC0AF0025F168 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5EDDC529FBC0AF0025F168 /* ViewController.m */; };
@@ -20,6 +26,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A337E0D2A04A93200D058A5 /* UCMHttpRequestBaseVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCMHttpRequestBaseVM.m; sourceTree = "<group>"; };
+		9A337E0E2A04A93200D058A5 /* UCMHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCMHttpRequest.h; sourceTree = "<group>"; };
+		9A337E102A04A93200D058A5 /* UCMHttpRequestNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCMHttpRequestNetworkManager.h; sourceTree = "<group>"; };
+		9A337E112A04A93200D058A5 /* UCMHttpRequestResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCMHttpRequestResponse.h; sourceTree = "<group>"; };
+		9A337E122A04A93200D058A5 /* UCMHttpRequestBaseVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCMHttpRequestBaseVM.h; sourceTree = "<group>"; };
+		9A337E142A04A93200D058A5 /* UCMHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCMHttpRequest.m; sourceTree = "<group>"; };
+		9A337E152A04A93200D058A5 /* UCMHttpRequestResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCMHttpRequestResponse.m; sourceTree = "<group>"; };
+		9A337E162A04A93200D058A5 /* UCMHttpRequestNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCMHttpRequestNetworkManager.m; sourceTree = "<group>"; };
+		9A337E1C2A04A9DA00D058A5 /* UCM_GenerProfile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UCM_GenerProfile.h; sourceTree = "<group>"; };
+		9A337E1E2A04AA9200D058A5 /* KWLoginedManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWLoginedManager.h; sourceTree = "<group>"; };
+		9A337E1F2A04AA9200D058A5 /* KWLoginedUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWLoginedUserModel.h; sourceTree = "<group>"; };
+		9A337E202A04AA9200D058A5 /* KWLoginedManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWLoginedManager.m; sourceTree = "<group>"; };
+		9A337E212A04AA9200D058A5 /* KWLoginedUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWLoginedUserModel.m; sourceTree = "<group>"; };
 		9A5EDDBB29FBC0AF0025F168 /* A.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A5EDDBE29FBC0AF0025F168 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9A5EDDBF29FBC0AF0025F168 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -68,6 +87,32 @@
 				CB4D2A7A737C6EB197238564 /* libPods-A.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A337E0C2A04A93200D058A5 /* UCM_NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				9A337E0E2A04A93200D058A5 /* UCMHttpRequest.h */,
+				9A337E142A04A93200D058A5 /* UCMHttpRequest.m */,
+				9A337E122A04A93200D058A5 /* UCMHttpRequestBaseVM.h */,
+				9A337E0D2A04A93200D058A5 /* UCMHttpRequestBaseVM.m */,
+				9A337E102A04A93200D058A5 /* UCMHttpRequestNetworkManager.h */,
+				9A337E162A04A93200D058A5 /* UCMHttpRequestNetworkManager.m */,
+				9A337E112A04A93200D058A5 /* UCMHttpRequestResponse.h */,
+				9A337E152A04A93200D058A5 /* UCMHttpRequestResponse.m */,
+			);
+			path = UCM_NetWork;
+			sourceTree = "<group>";
+		};
+		9A337E1D2A04AA9200D058A5 /* UserModel */ = {
+			isa = PBXGroup;
+			children = (
+				9A337E1E2A04AA9200D058A5 /* KWLoginedManager.h */,
+				9A337E1F2A04AA9200D058A5 /* KWLoginedUserModel.h */,
+				9A337E202A04AA9200D058A5 /* KWLoginedManager.m */,
+				9A337E212A04AA9200D058A5 /* KWLoginedUserModel.m */,
+			);
+			path = UserModel;
 			sourceTree = "<group>";
 		};
 		9A5EDDB229FBC0AF0025F168 = {
@@ -119,9 +164,12 @@
 		9A6E792B2A01ED0A0048B28C /* A */ = {
 			isa = PBXGroup;
 			children = (
+				9A337E1D2A04AA9200D058A5 /* UserModel */,
+				9A337E0C2A04A93200D058A5 /* UCM_NetWork */,
 				9A6E79262A01E6AE0048B28C /* Targets */,
 				9A6E792C2A01ED0A0048B28C /* AViewController.m */,
 				9A6E792D2A01ED0A0048B28C /* AViewController.h */,
+				9A337E1C2A04A9DA00D058A5 /* UCM_GenerProfile.h */,
 			);
 			path = A;
 			sourceTree = "<group>";
@@ -240,11 +288,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A337E222A04AA9200D058A5 /* KWLoginedManager.m in Sources */,
+				9A337E172A04A93300D058A5 /* UCMHttpRequestBaseVM.m in Sources */,
 				9A6E792E2A01ED0A0048B28C /* AViewController.m in Sources */,
+				9A337E232A04AA9200D058A5 /* KWLoginedUserModel.m in Sources */,
 				9A5EDDC629FBC0AF0025F168 /* ViewController.m in Sources */,
+				9A337E1A2A04A93300D058A5 /* UCMHttpRequestResponse.m in Sources */,
 				9A5EDDC029FBC0AF0025F168 /* AppDelegate.m in Sources */,
 				9A6E79292A01E6BF0048B28C /* Target_A.m in Sources */,
+				9A337E192A04A93300D058A5 /* UCMHttpRequest.m in Sources */,
 				9A5EDDD129FBC0B10025F168 /* main.m in Sources */,
+				9A337E1B2A04A93300D058A5 /* UCMHttpRequestNetworkManager.m in Sources */,
 				9A5EDDC329FBC0AF0025F168 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
